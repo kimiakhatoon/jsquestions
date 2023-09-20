@@ -1,7 +1,7 @@
 let add = calculate(2)(3); 
 let result = add('*'); 
 
-  
+
 function calculate(a) {
     return function(b) {
       return function(op) {
